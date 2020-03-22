@@ -8,6 +8,9 @@ using System.Windows;
 
 namespace TestWPF
 {
+    /// <summary>
+    /// Класс, отправляющий письмо на указанный адрес
+    /// </summary>
     class EmailSendServiceClass
     {
         public string MessageSubject { get; set; }
